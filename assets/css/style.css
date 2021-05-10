@@ -1,0 +1,393 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    line-height: 20px;
+    color: #b1b4bd;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* sticky nav */
+.sticky-nav {
+    position: sticky;
+    top: 0px;
+    padding: 20px;
+    z-index: 111;
+    background-color: rgba(12, 32, 59, 0.5);
+
+}
+/* logo */
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+.navbar-brand {
+    
+    font-size: 2.2rem;
+    color: white;
+}
+
+
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    margin-top: 4px;
+    width: 22px;
+    background: rgb(207, 8, 8);
+}
+/* nav Link */
+ .navbar-expand-lg .navbar-nav .nav-link {
+     padding: 1.4rem 1rem;
+     font-size: 1.2rem;
+     position: relative;
+ }
+
+ .navbar-expand-lg .navbar-nav .nav-link.active {
+     color: #e74c3c;
+ }
+
+ .btn {
+     background-color: #e74c3c ;
+     color: white;
+     border-radius: 10px;
+     padding: 1rem 1.5rem;
+     font-size: 1.2rem;
+
+ }
+
+ .btn:hover {
+    background-color: #0a3d62 ;
+    color: white;
+}
+
+/* nav */
+a {
+    color: #f6f7fae8;
+
+}
+a:hover {
+    color: #e74c3c;
+}
+
+.header-background {
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0px;
+    height: auto;
+    min-height: 750px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(180deg, rgba(19, 29, 82, 0.15), rgba(50,58,69,0.74)) , url('http://parksadventure.com/wp-content/uploads/2017/10/header-image-1-2.png');
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+
+}
+
+/* Pozicionimi i headingut */
+.heading {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 8px;
+    
+
+}   
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 140px;
+
+}
+.item {
+    filter: blur(0.9px);
+}
+.item:hover  {
+    filter:none;
+    transform: scale(1.6);
+    transition: transform .3s;
+    width: 220px;
+    height: 220px;
+    padding: 3px;
+}
+h1 {
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 50px;
+   
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(236, 229, 229, 0.829);
+    font-family: cursive;
+   
+}
+
+.img-thumbnail {
+    max-width: 100%;
+    height: 200px;
+} 
+
+.sidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 130px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    margin-top: 130px;   
+}
+  
+  .sidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+
+  }
+  
+  
+  #europe {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  #europe:hover {
+    top: 20px;
+    background-color: #aa0404;
+  }
+  
+  
+  #africa {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  #africa:hover {
+    top: 80px;
+    background-color:  #2304aaa2;
+  }
+  
+  #asia {
+    top: 140px;
+    background-color: #f44336;
+  }
+  #asia:hover {
+    top: 140px;
+    background-color: #9a13cf;
+  }
+  
+  #antarctica {
+    top: 200px;
+    background-color: #555;
+  }
+  #antarctica:hover {
+    top: 200px;
+    background-color: rgb(221, 199, 178);
+  }
+
+/* .carousel-item {
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+
+.carousel-item h5 {
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 2rem;
+} */
+
+/* Dubai*/
+.db {
+    color: rgb(255, 255, 255);
+    padding: 100px 0px;
+    background-image: url('http://smarttravels.ae/wp-content/uploads/2015/08/23062014110022022_M.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px #fcfcfc3a;
+    margin-top: -45px;  
+
+}
+    .db h3 {
+      font-family: "Jost", sans-serif;
+    }
+  
+    p {
+      margin-bottom: 80px;
+      font-weight: bold;
+      color: white;
+    }
+  
+    .btn-primary {
+        background-color: #e74c3c ;
+        color: white;
+        padding: 1rem 1.5rem;
+        font-size: 1.2rem;
+        border: none;
+    }
+    .btn-primary:hover {
+        background-color: #23617a;
+     
+      }
+
+  /* about us */
+  .about {
+      margin-top: -130px;
+  }
+  .column-left {
+      min-height: 750px;
+      background-image: linear-gradient(180deg, rgba(19, 29, 82, 0.15), rgba(50,58,69,0.74)) , url('http://anthillonline.com/wp-content/uploads/2018/06/OTA.jpg');
+      background-position: 0px 0px, 100% 50%;
+      background-size: auto, cover;
+      background-attachment: scroll, scroll ;
+    
+    }
+   
+    .paragraph {
+        color: black;
+    }
+
+/* footer */
+        footer {
+            margin-top: 10px;
+            background:#05637E;
+            height: auto;
+            width: 100%;
+            font-family: Open Sans;
+            padding-top: 40px;
+            color: #fff;
+        }
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+        .footer-content h3 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 3rem;
+        }
+
+        .footer-content p {
+            max-width: 500px;
+            margin: 10px auto;
+            line-height: 28px;
+            font-size: 14px ;
+        }
+        .socials {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem 0 3rem 0;
+
+        }
+        .socials li {
+            margin: 0 10px;
+
+        }
+        .socials a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .socials a i {
+            font-size: 1.1rem;
+            transition: color .4s ease;
+        }
+        .socials a:hover i {
+            color: aqua
+        }
+        .footer-bottom {
+            background:#05637E;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+
+        }
+        .footer-bottom p {
+            font-size: 14px;
+            word-spacing: 2px;
+            text-transform: capitalize;
+        }
+        .footer-bottom span {
+            text-transform: uppercase;
+            opacity: .4;
+            font-weight: 200;
+        }
+
+
+         
+
+  @media screen and (max-width: 576px) {
+    .row { 
+        margin-top: 50px;
+        text-align: center;
+     
+    }
+    .img-thumbnail {
+        max-width: 100%;
+        height: auto;
+    } 
+    
+    .item {
+        filter: none;
+        width: auto;
+        height: auto;
+        transform: none;
+        transition: none;
+    }
+   
+
+    .sidenav a {
+        left: -1000px;
+    }
+
+    .db 
+       
+        p {
+          margin-bottom: 100px;
+          text-align: center;
+        }
+      
+        h3 {
+          font-family: "Jost", sans-serif;
+        }
+      
+        p {
+          margin-bottom: 0px;
+        }
+      
+        .btn-primary {
+          margin: 10px auto 20px auto;
+        }
+      }
+    
+
+  
+  
+ 
